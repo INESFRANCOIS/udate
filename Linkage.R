@@ -60,3 +60,9 @@ temp2 = health %>%
 
 # Join temp1 and 2 - this join you specify which variable to join on because there are multiple overlapping variables 
 result = inner_join(temp1, temp2, by="MyID")
+
+# Write out result as csv 
+# write.csv(result,'linked.csv')
+
+
+
